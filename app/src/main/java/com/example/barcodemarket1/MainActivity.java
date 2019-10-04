@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
 
+
+        // ini kodingan git
+
         //init view
         btnChoose = (Button)findViewById(R.id.btnChoose);
         btnUpload = (Button)findViewById(R.id.btnUpload);
